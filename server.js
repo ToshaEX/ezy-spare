@@ -21,7 +21,8 @@ app.use(
 app.use("/store", itemRoutes);
 
 const URL =
-  "mongodb+srv://lockDB:Node123@cluster0.zkdzu.mongodb.net/ezSpare?retryWrites=true&w=majority";
+  //"mongodb+srv://lockDB:Node123@cluster0.zkdzu.mongodb.net/ezSpare?retryWrites=true&w=majority"
+  "mongodb+srv://name:0000@cluster0.zkdzu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 mongoose
   .connect(process.env.MONGODB_URI||URL, { useNewUrlParser: true })

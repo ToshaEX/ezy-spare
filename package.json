@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "cd ezy-front && npm run build",
-    "install-ezyfront": "cd ezy-front && npm install",
-    "heroku-postbuild": "npm run install-ezyfront && npm run build"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
